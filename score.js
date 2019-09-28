@@ -54,3 +54,4 @@ if (name == "潘齐洪") {
     write=166;
 }
 var sum=write+listen+read;
+
