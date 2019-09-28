@@ -9,9 +9,9 @@ school=schoollist[schoolid];
 if (typeof(school) == 'undefined'){
     school="中北大学";
 }
-if (timeid != 1){
+if (timeid == 2){
     times="下";
 }
-if (gradeid != 1){
+if (gradeid == 2){
     grade="六";
 }
