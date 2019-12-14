@@ -38,9 +38,13 @@ Request = GetRequest();
 var name,age;
 zkzh = Request['zkzh'];
 name = Request['name'];
+var sum=425+parseFloat(zkzh)%75;
+
 var write=randomNum(142,160);
 var listen=Math.round(randomNum(20,23)*7.1);
-var read=Math.round(randomNum(20,23)*7.1);
+/*var read=Math.round(randomNum(20,23)*7.1);*/
+var read=sum-listen-write;
+
 if (zkzh == '140040191113912') {
     name = "潘齐洪";
     listen=147;
@@ -53,5 +57,5 @@ if (name == "潘齐洪") {
     read=161;
     write=166;
 }
-var sum=write+listen+read;
+/*var sum=write+listen+read;*/
 
